@@ -5,7 +5,7 @@ trigger: none
 stages:
 - stage: build
   jobs:
-  - job: build code
+  - job: build_code
     pool:
       vmImage: ubuntu-latest
     container: phuongdt/ubuntu-maven
