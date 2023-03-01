@@ -8,7 +8,7 @@ stages:
   - job: build_code
     pool:
       vmImage: ubuntu-latest
-    container: phuongdt/ubuntu-maven
+    container: maven:3.3-jdk-8
     steps:
     - task: CmdLine@2
       displayName: 'Run a one-line script'
